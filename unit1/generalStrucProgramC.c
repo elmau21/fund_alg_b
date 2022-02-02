@@ -11,7 +11,7 @@ char* name = "Mauricio";
 char unCaracter = 'M';
 ///////////////////////////////////////
 
-//Ejecuccion del programa///
+//Ejecucion del programa///
 
 int main (){
     printf("Hello Data B %s\n",name);
