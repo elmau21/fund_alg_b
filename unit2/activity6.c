@@ -13,7 +13,7 @@ int main(int argc, char** argv){
     bool isDividedByTwo = (number % 2 == 0); 
     printf("iterador: %d\n", i);
     
-    if(isDividedByTwo) printf("even number: %d\n", number);
+    if(!isDividedByTwo) printf("even number: %d\n", number);
     }
 
     printf("While solution! \n");
@@ -21,6 +21,7 @@ int main(int argc, char** argv){
     while( i <= range2){
         printf("iterador: %d\n", i);
         i += 1;
+        sleep(1000);
     };
 
     return 0;
