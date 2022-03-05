@@ -12,7 +12,6 @@ int main(int argc, char** argv){
     int number =  i;
     bool isDividedByTwo = (number % 2 == 0); 
     printf("iterador: %d\n", i);
-    
     if(!isDividedByTwo) printf("even number: %d\n", number);
     }
 
@@ -20,6 +19,9 @@ int main(int argc, char** argv){
     int i = 1;
     while( i <= range2){
         printf("iterador: %d\n", i);
+        int number = i;
+        bool isDividedByTwo = (number % 2 == 0); 
+        if(!isDividedByTwo) printf("odd number: %d\n", number);
         i += 1;
         sleep(1000);
     };
